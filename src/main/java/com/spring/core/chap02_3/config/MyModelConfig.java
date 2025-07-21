@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-// 해당 패키지 범위 안에서 @cComponent가 붙은 클래스들을 전부 잡아와서 빈으로 등록시킴
+// 해당 패키지 범위 안에서 @Component가 붙은 클래스들을 전부 잡아와서 빈으로 등록시킴
 @ComponentScan(basePackages = "com.spring.core.chap02_3")
 public class MyModelConfig {
 
